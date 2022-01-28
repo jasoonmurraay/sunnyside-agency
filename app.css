@@ -1,0 +1,173 @@
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif; */
+
+body {
+    background-color: hsl(210, 30%, 96%);
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #3ebeff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    font-family: 'Barlow', sans-serif;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: white;
+    padding: 0 1.5rem;
+}
+
+.contact {
+    background-color: hsl(210, 30%, 96%);
+    color: hsl(212, 27%, 19%);
+    border-radius: 20%/50%;
+    border: none;
+    margin: 0 1.5rem;
+    padding: 0.75rem;
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+}
+
+.headerImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.sectionText {
+    width: 50%;
+}
+
+.sectionImg {
+    width: 50%;
+}
+
+.sectionImg img {
+    width: 100%;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.sec3div1 {
+    width: 50%;
+}
+
+.sec3div1 img {
+    width: 100%;
+}
+
+.sec3div2 {
+    width: 50%;
+}
+
+.sec3div2 img {
+    width: 100%;
+}
+
+.sec3Text {
+    position: relative;
+    top: -25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 10rem;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateY(-20%);
+}
+
+.testimonialHeader {
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.testQuotes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    height: 4rem;
+    margin-bottom: 2rem;
+}
+
+.quote {
+    margin-bottom: 2rem;
+}
+
+.name {
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.allPicSection {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.allPicImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.allPicImg img {
+    width: 100%;
+}
